@@ -1,0 +1,20 @@
+{
+  "links": [
+    {
+      "label": "WHAT WE DO",
+      "link": "/whatwedo"
+    },
+    {
+      "label": "WHO WE ARE",
+      "link": "/about"
+    },
+    {
+      "label": "BEING HERE",
+      "link": "/beinghere"
+    },
+    {
+      "label": "CAREERS",
+      "link": "/careers"
+    }
+  ]
+}

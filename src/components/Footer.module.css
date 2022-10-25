@@ -1,0 +1,114 @@
+.footer {
+  padding-bottom: 40px;
+  padding-top: calc(160px + 120 * (100vw - 320px) / 2180);
+  background-color: #000;
+}
+
+.footer .container {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(25, 1fr);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container .nav {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  grid-column-start: 2;
+  grid-column-end: span 8;
+}
+
+.container .nav .navigation {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-weight: 400;
+}
+
+.container .nav .navigation .navlist {
+  column-count: 2;
+  grid-column-gap: 0;
+  column-gap: 0;
+  margin-left: -4vw;
+}
+
+.container .nav .navigation .navlist .link {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.navlist a {
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 12px 4vw;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+  white-space: nowrap;
+  color: #fff;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.social {
+  flex-direction: row;
+  margin-right: -20px;
+  align-items: flex-end;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  margin-top: 0;
+  margin-left: 0;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  grid-column-start: 14;
+  grid-column-end: span 11;
+}
+
+.social .newsletter {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+
+.social .newsletter button {
+  letter-spacing: 0.8px;
+  line-height: 1.71;
+  align-items: center;
+  border-radius: 27px;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 14px;
+  height: 54px;
+  border: 1px solid hsla(0, 0%, 100%, 0.25);
+  background: none;
+  color: #fff;
+  padding: 0 32px;
+  margin-right: 18px;
+}
+
+.social li {
+  display: inline-block;
+}
+
+.social li a {
+  margin-top: 0;
+  padding: 12px 24px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  transform: scale(2);
+}

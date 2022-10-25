@@ -1,0 +1,126 @@
+.container {
+  background: #000;
+}
+
+.media {
+  padding-top: calc(160px + 120 * (100vw - 320px) / 2180);
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: calc(160px + 120 * (100vw - 320px) / 2180) 330px 0px;
+}
+
+.title h1 {
+  margin-bottom: 0;
+}
+
+.title h1 {
+  color: #fff;
+  font-size: calc(28px + 68 * (100vw - 320px) / 2180);
+  font-weight: 500;
+}
+
+.news {
+  display: flex;
+  padding: calc(160px + 120 * (100vw - 320px) / 2180) 100px 0px;
+  justify-content: space-between;
+}
+
+.news .newsimg {
+  width: 630px;
+  height: 470px;
+}
+
+.news .textfield {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 26%;
+  padding-right: 100px;
+}
+
+.news .textfield h3 {
+  color: #fff;
+  font-size: calc(19px + 13 * (100vw - 320px) / 2180);
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  word-spacing: 0.4px;
+  font-weight: 450;
+}
+
+.button {
+  background: #fff;
+  color: #000;
+  margin-bottom: 0;
+  margin-top: 40px;
+  letter-spacing: 0.8px;
+  line-height: 1.71;
+  align-items: center;
+  border-radius: 27px;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 14px;
+  height: 54px;
+  padding: 0 32px;
+}
+
+.left {
+  padding-left: 100px;
+}
+
+.content {
+  padding-top: calc(160px + 120 * (100vw - 320px) / 2180);
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(25, 1fr);
+  grid-auto-flow: row dense;
+}
+
+.content .workcontent {
+  grid-column-start: 2;
+  grid-column-end: span 11;
+}
+
+.content .leftside {
+  grid-column-start: 14;
+  grid-column-end: span 21;
+  width: 91.5%;
+}
+
+.imgcover {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.leftside .imgcover {
+  height: 76%;
+}
+
+.textcontent {
+  display: grid;
+  color: #fff;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4vw;
+}
+
+.textcontent h2 {
+  font-size: calc(19px + 13 * (100vw - 320px) / 2180);
+}
+
+.textcontent p {
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  line-height: 1.71;
+  max-width: 500px;
+}

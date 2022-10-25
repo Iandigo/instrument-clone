@@ -1,0 +1,40 @@
+{
+  "links": [
+    {
+      "label": "HOME",
+      "link": "/"
+    },
+    {
+      "label": "WHAT WE DO",
+      "link": "/whatwedo"
+    },
+    {
+      "label": "WORK",
+      "link": "/work"
+    },
+    {
+      "label": "WHO WE ARE",
+      "link": "/about"
+    },
+    {
+      "label": "ARTICLES",
+      "link": "/articles"
+    },
+    {
+      "label": "BEING HERE",
+      "link": "/beinghere"
+    },
+    {
+      "label": "CAREERS",
+      "link": "/careers"
+    },
+    {
+      "label": "CONTACT",
+      "link": "/contact"
+    },
+    {
+      "label": "PRIVACY",
+      "link": "/privacy"
+    }
+  ]
+}
